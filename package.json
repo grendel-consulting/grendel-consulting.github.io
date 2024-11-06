@@ -51,11 +51,33 @@
   },
   "pnpm": {
     "overrides": {
-      "ws@>=8.0.0 <8.17.1": ">=8.17.1",
-      "path-to-regexp@>=2.0.0 <3.3.0": ">=3.3.0",
-      "path-to-regexp@>=0.2.0 <1.9.0": ">=1.9.0",
+      "aggregate-error": "npm:@socketregistry/aggregate-error@^1",
+      "array-flatten": "npm:@socketregistry/array-flatten@^1",
+      "cookie@<0.7.0": ">=0.7.0",
+      "define-properties": "npm:@socketregistry/define-properties@^1",
+      "es-define-property": "npm:@socketregistry/es-define-property@^1",
+      "function-bind": "npm:@socketregistry/function-bind@^1",
+      "gopd": "npm:@socketregistry/gopd@^1",
+      "has": "npm:@socketregistry/has@^1",
+      "has-property-descriptors": "npm:@socketregistry/has-property-descriptors@^1",
+      "has-proto": "npm:@socketregistry/has-proto@^1",
+      "has-symbols": "npm:@socketregistry/has-symbols@^1",
+      "hasown": "npm:@socketregistry/hasown@^1",
+      "indent-string": "npm:@socketregistry/indent-string@^1",
+      "is-core-module": "npm:@socketregistry/is-core-module@^1",
+      "isarray": "npm:@socketregistry/isarray@^1",
+      "object-assign": "npm:@socketregistry/object-assign@^1",
+      "object-keys": "npm:@socketregistry/object-keys@^1",
+      "object.assign": "npm:@socketregistry/object.assign@^1",
+      "path-parse": "npm:@socketregistry/path-parse@^1",
       "path-to-regexp@<0.1.10": ">=0.1.10",
-      "cookie@<0.7.0": ">=0.7.0"
+      "path-to-regexp@>=0.2.0 <1.9.0": ">=1.9.0",
+      "path-to-regexp@>=2.0.0 <3.3.0": ">=3.3.0",
+      "safe-buffer": "npm:@socketregistry/safe-buffer@^1",
+      "safer-buffer": "npm:@socketregistry/safer-buffer@^1",
+      "set-function-length": "npm:@socketregistry/set-function-length@^1",
+      "side-channel": "npm:@socketregistry/side-channel@^1",
+      "ws@>=8.0.0 <8.17.1": ">=8.17.1"
     }
   }
 }
