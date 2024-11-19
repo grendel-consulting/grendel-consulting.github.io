@@ -54,6 +54,7 @@
       "aggregate-error": "npm:@socketregistry/aggregate-error@^1",
       "array-flatten": "npm:@socketregistry/array-flatten@^1",
       "cookie@<0.7.0": ">=0.7.0",
+      "cross-spawn@<7.0.5": ">=7.0.5",
       "define-properties": "npm:@socketregistry/define-properties@^1",
       "es-define-property": "npm:@socketregistry/es-define-property@^1",
       "function-bind": "npm:@socketregistry/function-bind@^1",
