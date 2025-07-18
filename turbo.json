@@ -1,0 +1,28 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build", "lint", "check-types"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["build/**"]
+    },
+    "check-types": {
+      "dependsOn": ["^check-types"]
+    },
+    "ci": {
+      "dependsOn": ["build", "e2e"]
+    },
+    "e2e": {
+      "dependsOn": ["^build"],
+      "passThroughEnv": ["PLAYWRIGHT_*"]
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "start": {
+      "cache": false,
+      "persistent": true
+    }
+  }
+}
