@@ -11,8 +11,7 @@
       "dependsOn": ["^check-types"]
     },
     "browsers": {
-      "dependsOn": ["^browsers"],
-      "cache": false
+      "dependsOn": ["^browsers"]
     },
     "ci": {
       "dependsOn": ["build", "e2e"]
