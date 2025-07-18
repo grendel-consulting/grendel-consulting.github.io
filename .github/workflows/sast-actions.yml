@@ -1,4 +1,4 @@
-name: zizmor
+name: Scan GitHub Actions with Zizmor
 
 on:
   schedule:
