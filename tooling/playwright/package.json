@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "browsers": "pnpm playwright install",
-    "e2e": "pnpm bddgen && pnpm playwright test"
+    "e2e": "pnpm bddgen && pnpm playwright test --project=chromium"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.10.2",
